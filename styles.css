@@ -26,10 +26,10 @@ body {
 }
 
 .image-right {
-    width: 450px;
+    width: 400px;
     height: 250px;
     border-radius: 20px;
-    padding: 20px
+    padding: 20px;
 }
 
 .header-main {
@@ -136,4 +136,34 @@ h3 {
 
 a {
     color: #E5E7EB;
+}
+
+.white-action {
+    display: flex;
+    background-color: #3882F6;
+    padding: 30px;
+    margin: 60px;
+    column-gap: 200px;
+}
+
+.action-words {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+h5 {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.action-button {
+    background-color: #3882F6;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 75px;
+    margin-top: 15px;
+    margin-right: 40px;
 }
