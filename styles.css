@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.header, .footer, .header-main {
+    background-color: #1F2937;
+
+}
+
+.header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.header-split {
+    display: flex;
+    background-color: #1F2937;
+    padding: 15px;
+}
+
+.image-right {
+    width: 450px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 20px
+}
+
+.header-main {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.links {
+    gap: 10px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.hero-sec {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.white {
+    background-color: #3882F6;
+    width: 100px;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 7px 0 0 0;
+    color: white;
+    border: #3882F6;
+}
+
+.info {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-images {
+    width: 175px;
+    height: 175px;
+    border-radius: 10px;
+}
+
+.infoges {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.info-text {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.author {
+    background-color: #E5E7EB;
+    padding-left: 550px;
+    padding-bottom: 75px;
+    font-weight: bolder;
+    font-size: 20px;
+  
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 75px 100px 0 100px;
+}
+
+.quote-author {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    color: #E5E7EB;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+
+}
+
+a {
+    color: #E5E7EB;
+}
